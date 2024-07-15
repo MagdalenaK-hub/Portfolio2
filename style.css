@@ -1,0 +1,114 @@
+:root{
+    --c1: #818C2A;
+    --c2:#D9CBA0;
+    --c3: brown;
+    --c4: green;
+    --c5: #E4EDF2;
+    --c6: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+div.rodzic{
+    
+    background-color: var(--c2);
+    margin: 40px;
+    padding: 10px;
+
+    
+    
+}
+div.naglowek{
+    background-color: var(--c1);
+    display: inline-block;
+    width:95%;
+    padding: 20px;
+    margin: 10px;
+
+}
+div.obrazki{
+    width:50%;
+    display: inline-block;
+}
+div.punktowania{
+    display: inline-block;
+    text-align: justify;
+    padding: 10px;
+    width: 40%;
+    line-height: 30px;
+    vertical-align: top;
+    
+    
+}
+div.menu{
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 10px;
+    vertical-align: bottom;
+    transition: 0.4s;
+}
+a:hover{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+img{
+    width:30%;
+    padding: 5px;
+    transition: 0.4s;
+}
+.obramowanie:hover{
+    border-color: var(--c5);
+}
+.logo{
+    margin-right: 200px;
+    width:7%;
+    border-radius: 80%;
+    padding: 15px;
+    border: 2px solid var(--c5);
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.obramowanie {
+    border: 2px solid var(--c4);
+    transition: 0.4s;
+    border-radius: 20%;
+}
+h1{
+    padding: 20px;
+    text-transform: uppercase ;
+    color:var(--c6);
+    font-size: 35px;
+    display: inline-block;
+    vertical-align: middle;
+}
+h2{
+    border-bottom: 2px solid var(--c3);
+    padding: 5px;
+}
+
+div.stopka{
+    background-color: var(--c6);
+    font-weight: bold;
+    padding: 25px;
+    margin: 60px;
+    border: 15px solid var(--c2);
+}
+.dodatkowe{
+
+}
